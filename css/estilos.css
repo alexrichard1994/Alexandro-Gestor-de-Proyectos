@@ -1,0 +1,36 @@
+#contenedor{
+    display: flex;
+}
+#menu{
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;    
+}
+button{
+    padding: 16px 22px;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.opcionActivo{
+    background-color: #ccc;
+}
+.panel{
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    align-content: center;
+    display: none;
+}
+.activa{
+    display: block;
+}
+#tabla{
+    align-content: center;
+    margin: 0 auto;
+}
