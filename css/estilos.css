@@ -34,3 +34,12 @@ button:hover{
     align-content: center;
     margin: 0 auto;
 }
+#btnAgregar{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 120px;    
+}
+#listarMensajes{
+    align-content: ;
+}

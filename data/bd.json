@@ -1,14 +1,14 @@
 {
     "proyectos": [
-        {"nombre":"José","lenguage":"css","monto":"4200"},
-        {"nombre":"Juan","lenguage":"html","monto":"4750"},
-        {"nombre":"Mariana","lenguage":"java","monto":"8750"},
-        {"nombre":"Erica","lenguage":"css","monto":"4830"},
-        {"nombre":"Pablo","lenguage":"c++","monto":"6550"},
-        {"nombre":"Marcos","lenguage":"javascript","monto":"4200"},
-        {"nombre":"Santiago","lenguage":"python","monto":"9600"},
-        {"nombre":"Alba","lenguage":"html","monto":"7550"},
-        {"nombre":"Maria","lenguage":"css","monto":"4400"},
-        {"nombre":"Sofia","lenguage":"java","monto":"8550"},
+        {"nombre":"José","lenguaje":"css","monto":"4200"},
+        {"nombre":"Juan","lenguaje":"html","monto":"4750"},
+        {"nombre":"Mariana","lenguaje":"java","monto":"8750"},
+        {"nombre":"Erica","lenguaje":"css","monto":"4830"},
+        {"nombre":"Pablo","lenguaje":"c++","monto":"6550"},
+        {"nombre":"Marcos","lenguaje":"javascript","monto":"4200"},
+        {"nombre":"Santiago","lenguaje":"python","monto":"9600"},
+        {"nombre":"Alba","lenguaje":"html","monto":"7550"},
+        {"nombre":"Maria","lenguaje":"css","monto":"4400"},
+        {"nombre":"Sofia","lenguaje":"java","monto":"8550"},
     ]
 }

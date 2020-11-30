@@ -7,9 +7,6 @@ function abrirPanel(panelInicial){
 
     document.getElementById(panelInicial).classList.add("activa")
 }
-
-
-
 //crear funcion que recibe como parametro el 
 //obj obtenido con fetch()que almacene el 
 //contenido en una variable, utilizar forEach() 
@@ -36,6 +33,7 @@ fetch('../data/bd.json')
           
           const valores=[{
                 nombre:document.getElementById('nombre').value,
+                lenguaje:document.getElementById('lenguaje').value,
                 monto:document.getElementById('monto').value,
           }]
           agregarProyectos(valores)
@@ -44,6 +42,29 @@ fetch('../data/bd.json')
      
     function limpiarFormulario(){
            document.getElementById("nombre").value="";
-           document.getElementById("lenguage").value="";
+           document.getElementById("lenguaje").value="";
            document.getElementById("monto").value="";
+}
+
+//Crear en el archivo .js la función traerMensaje
+//Por medio de fetch(), que se comunique al URL randomuser.me/api,
+//De los datos obtenidos, insertar por medio de DOM en la tabla listarMensajes 
+//el apellido, el teléfono e ingresar manualmente en la última columna la frase 
+//contácteme por favor.function traerMensaje(){
+function traerMensaje(){
+fetch('https://randomuser.me/api')
+    .then(respuesta=>respuesta.json())
+    .then(datos=>listarMensajes(datos.results[0]))
+}
+
+function listarMensajes(datos){
+    const tablaMensajes=document.querySelector("#listarMensajes")
+   
+    tablaMensajes.innerHTML+=`
+    
+         ${datos.name.first} ${datos.name.last}
+         ${datos.cell}
+         Contacteme por favor
+    
+    `
 }

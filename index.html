@@ -8,19 +8,23 @@
 </head>
 <body>
     <div id="contenedor">
+
         <div id="menu">
-            <button name="agregar" class="opcion" class="activo" onclick="abrirPanel('agregar')">Agregar</button>
+            <button name="agregar" class="opcion activo" onclick="abrirPanel('agregar')">Agregar</button>
             <button name="listar" class="opcion" onclick="abrirPanel('listar')">Listar</button>
+            <button name="mensajes" class="opcion" onclick="abrirPanel('mensajes'),traerMensaje()">Mensajes</button>
         </div>
-        <div id="agregar" class="panel" class="activa">
+
+        <div id="agregar" class="panel activa">
             <h2>Agregar Proyecto</h2>
-            <form id="agregarProyecto">
+            <form>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre de Proyecto">
                 <input type="text" name="lenguage" id="lenguage" placeholder="Lenguage">
-                <input type="number" id="monto" name="monto" placeholder="Monto">
-                <input type="submit" value="Agregar" id="btnAgregar">
+                <input type="number" id="monto" name="monto" placeholder="Monto"><br>
+                <button type="submit" value="Agregar" id="btnAgregar" onclick="insertar(event)">Agregar</button>
             </form>
         </div>
+
         <div id="listar" class="panel">
             <h2>Historial de Proyectos</h2>
             <table id="tabla">
@@ -29,7 +33,18 @@
                 <th>Monto Facturado en Dolares</th>
             </table>
         </div>
+
+        <div id="mensajes" class="panel">
+            <h2>Solicitud de Contacto</h2>
+            <table id="listarMensajes">
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+            </table>
+        </div>
+
     </div>
+
     <script src="./js/funciones.js"></script>
     
 </body>
