@@ -1,0 +1,14 @@
+{
+    "proyectos": [
+        {"nombre":"José","lenguage":"css","monto":"4200"},
+        {"nombre":"Juan","lenguage":"html","monto":"4750"},
+        {"nombre":"Mariana","lenguage":"java","monto":"8750"},
+        {"nombre":"Erica","lenguage":"css","monto":"4830"},
+        {"nombre":"Pablo","lenguage":"c++","monto":"6550"},
+        {"nombre":"Marcos","lenguage":"javascript","monto":"4200"},
+        {"nombre":"Santiago","lenguage":"python","monto":"9600"},
+        {"nombre":"Alba","lenguage":"html","monto":"7550"},
+        {"nombre":"Maria","lenguage":"css","monto":"4400"},
+        {"nombre":"Sofia","lenguage":"java","monto":"8550"},
+    ]
+}
